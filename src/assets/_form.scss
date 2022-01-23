@@ -1,0 +1,41 @@
+.todo-form {
+  position: relative;
+  margin-bottom: 30px;
+
+  .text-control {
+    width: 100%;
+    padding: 0 0 0 0;
+    font-weight: 500;
+    border: 1px solid $grey;
+    padding: 0 90px 0 10px;
+    border-radius: 5px;
+    height: 38px;
+
+    &:focus {
+      border-color: $green;
+      outline: none;
+    }
+  }
+
+  .button {
+    border: none;
+    background-color: $green;
+    color: $white;
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    height: 38px;
+    padding: 0 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    transition: 0.3s ease all;
+
+    &:hover {
+      background-color: $green-hover;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
