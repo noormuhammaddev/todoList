@@ -27,3 +27,25 @@ body {
   border-radius: 8px;
   box-shadow: rgba(70, 87, 109, 0.06) 0px 1px 1px, rgba(100, 116, 139, 0.01) 0px 1px 2px;
 }
+
+
+.col-wrapper {
+  display: flex;
+
+  .column {
+    flex: 1;
+    padding: 8px;
+
+    .droppable-col {
+      background-color: $white;
+      border: 1px solid $grey;
+      padding: 10px;
+
+      .list-item {
+        background-color: $grey;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
